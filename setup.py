@@ -1,24 +1,22 @@
 from setuptools import setup
-from pimodisco import version, source_url
+import glossarybot
 
 setup(
-    name='pimodisco',
-    keywords='Pimoroni Discord Bot',
-    version=version,
-    url=source_url,
+    name='Glossary bot for Discord',
+    keywords='Glossary-bot',
+    version=glossarybot.version,
+    url=glossarybot.source_url,
     license='GPLv3+',
-    packages=['pimodisco'],
-    package_data={'pimodisco': ['data/badwords.txt']},
+    packages=['glossary-bot'],
     install_requires=[
-        'discord.py>=1.0.0', 'algoliasearch', 'markdown', 'pyyaml', 'inflection',
-        'configargparse', 'aiohttp',
+        'discord.py>=1.1.0',
     ],
     dependency_links=[
-        'git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py'
+        'discord.py'
     ],
     entry_points={
         'console_scripts': [
-            'pimodisco = pimodisco.__main__:main'
+            'glossarybot = glossarybot.__main__:main'
         ]
     },
 )
