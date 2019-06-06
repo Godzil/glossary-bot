@@ -1,5 +1,8 @@
-# Pimoroni-Discord-Bot
-This is the officially unofficial Pimoroni Discord bot!
+# Glossary-bot for Discord
+This is the glossary bot, to help you to have a glossary on your prefered discord server.
+
+
+A complete and shameless ripoff of the officially unofficial Pimoroni Discord bot!
 
 Feel free to mess around with the code and make improvements where you
 can!
@@ -7,9 +10,19 @@ can!
 
 # Install
 
-Run `pip3 install -r requirements.txt` from the root of the repository
-to install pimodisco and all dependencies.
+Make sure you have python 3.6 or more recent and virtualenv installed on your system then:
 
+Then run under linux:
+
+```
+virtualenv venv
+. venv/bin/activate
+pip install -r requirements.txt
+```
+
+from the root of the repository to install glo and all dependencies.
+
+Then each time you open a new terminal, don't forget to re-run `. venv/bin/activate`
 
 # Running
 In order to run this bot for yourself, you need:
@@ -27,4 +40,4 @@ environment variable `DISCORD_BOT_TOKEN`.
 
 To use all the features you also need some other API credentials. Note:
 environment variables use the config file syntax, not the command line
-syntax. See pimodisco.conf.example.
+syntax. See glossarybot.conf.example.
