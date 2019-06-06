@@ -12,17 +12,3 @@ prefix=!
 # Environment variable: AUTH_ROLES
 auth-roles=[1, 2, 3, 4]
 
-#### API credentials for search functions. ####
-
-# Algolia search for !product command.
-# Environment variable: ALGOLIA_CREDENTIALS
-algolia=[appid, apikey]
-
-# GitHub search.
-# Environment variable: GITHUB_CREDENTIALS
-github=[user, apikey]
-
-# Youtube search.
-# Environment variable: YOUTUBE_SERVER_API_KEY
-youtube=apikey
-
