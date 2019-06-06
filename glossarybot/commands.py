@@ -1,8 +1,8 @@
 import random
 import ast
 
-from pimodisco import source_url, version as version__
-from pimodisco.checks import authCheck
+from glossarybot import source_url, version as version__
+from glossarybot.checks import authCheck
 
 from discord import TextChannel
 from discord.ext import commands
