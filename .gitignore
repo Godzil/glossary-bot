@@ -1,5 +1,6 @@
 .idea
-pimodisco.conf
+glossarybot.conf
 *.pyc
 *.swp
 __pycache__
+venv/
